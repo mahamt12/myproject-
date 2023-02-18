@@ -39,11 +39,11 @@
     	--s: min(10vw, 10vh);
 
     	.scale {
-    		position: relative;
-    		width: calc(7 * var(--s));
-    		height: calc(7 * var(--s));
-    		display: grid;
-    		place-items: center;
+    		position:-relative;
+    		width:calc(7 * var(--s)) ;
+    		height:calc(7 * var(--s));
+    		display:grid;
+    		place-items:center;
     	}
 
     	.board {
@@ -181,10 +181,10 @@
     	overflow: hidden;
     	border: 1px solid var(--purple);
     	font-size: 2rem;
-    	background-image: url("C:\Users\maha7\OneDrive\المستندات\GitHub\myproject-\chess-neon.svg");
+    	background-image: url("C:\Users\maha7\OneDrive\\GitHub\myproject-\chess-neon.svg");
     	background-size: calc(6 * var(--s)) var(--s);
     	background-repeat: no-repeat;
-    	transition: background 0.3s ease-in-out;
+    	transition:-background 0.3s ease-in-out;
     	&::after {
     		content: attr(data-piece);
     		text-transform: uppercase;
